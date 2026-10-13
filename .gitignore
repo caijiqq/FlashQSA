@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+*.egg-info/
+build/
+dist/
+
+# TileLang / CUDA
+*.so
+*.o
+*.cubin
+.tilelang_cache/
+tilelang-cache/
+
+# Models and artifacts
+*.safetensors
+*.pt
+*.pth
+*.npy
+*.npz
+
+# Profiling
+*.nsys-rep
+*.ncu-rep
+
+# IDE
+.vscode/
+.idea/
